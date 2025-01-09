@@ -12,12 +12,25 @@ super.write();                                             // to give priority f
 
 
     public static void main(String[] args) {
-        MAhesh mAhesh = new MAhesh();
-        mAhesh.read();
+      //  MAhesh mAhesh = new MAhesh();
+      //  mAhesh.read();
 
-        mAhesh.write();
-        mAhesh.manage();
-        mAhesh.delevop();
+       // vod read()
+//        mAhesh.write();
+//        mAhesh.manage();
+//        mAhesh.delevop();
+        int age = 35;
+
+
+
+
+        Sister sister = new Sister();
+        sister.read();
+        System.out.println();
+        System.out.println(age);
+
+
+
 
     }
 

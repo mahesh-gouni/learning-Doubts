@@ -8,7 +8,7 @@ public class Banking {
     //withdraal
     //show curen
     // t balance
-  public    static int  balance=0;
+  public     int  balance=0;
      double creditScore =735.6;
     public static void greeting(){
         System.out.println("hello developer");

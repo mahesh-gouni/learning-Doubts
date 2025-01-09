@@ -6,7 +6,7 @@ public class VectorPractice {
     public static void main(String[] args) {
 
 
-        Vector v0 = new Vector();
+        Vector <Integer>v0 = new Vector<>();
         System.out.println(v0);
         System.out.println(v0.capacity());
         v0.add(1);
@@ -28,6 +28,8 @@ public class VectorPractice {
         v0.add(7);
         System.out.println(v0);
         System.out.println(v0.capacity());
+        v0.remove("4");
+        System.out.println(v0);
 
 
     }
